@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  background-color: #F2F2F2;
+}
+
+#header{
+    padding-top: 10px;
+	padding-bottom: 50px;
+    border-bottom: 8px solid #e7008a;
+}
+
+#footer{
+    border-top: 8px solid #e7008a;
+}
+
+.pnk{
+    color:#e7008a;
+}

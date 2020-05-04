@@ -1,0 +1,200 @@
+<?php
+	include "/var/www/html/includes/rutasweb.php";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Secretaría de Finanzas</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../bootstrap.v4.1.3/includes/sefin.ico"/>
+		
+		<link rel="stylesheet" href="/../bootstrap.v4.1.3/css/bootstrap.min.css" >
+		<script src="/../bootstrap.v4.1.3/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="/../bootstrap.v4.1.3/fontawesome-free-5.3.1/css/all.css">
+		
+		<!--Responsive Images Map-->
+   
+		<style>
+		  
+			#logo_cdmx_header{width: 66.66%;}
+			
+			/*
+			.row{margin-left: 0px; margin-right: 0px;}
+			
+			.Items{padding: 0 0 0 28px; border-left: solid 3px #eaeaea; list-style: none; margin: 0;}
+			
+			.Items>li>a{text-decoration: underline; font-weight: bold; color: inherit; font-size: 16px; line-height: 100%;color: #ff149b ! important;}
+			
+			.Items>li{color: #ff149b; padding-bottom: 10px; text-align: left !important;}
+			
+			.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {color: #000; background-color: transparent; text-decoration: underline;}
+			
+			.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus{background-color: #f9f9f9 !important;color: #000;}
+			
+			.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {background-color: #eee; border-color: #f9f9f9;}
+			
+			.navbar-nav>li>a {padding-top: 10px; padding-bottom: 10px; border-left: solid 1px #ddd; color: #000; display: block; font-size: 17px; font-weight: 600; text-align: center; color: #000 !important; line-height: 50px; font-family: "Helvetica"; padding: 1.0em;}
+		 
+			.nav>li{position: relative; display: block; width:15%;} 
+			
+			.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: rgba(0,0,0,.075) !important;}
+			
+			.dropdown-menu>li>a {display: block; padding: 3px 20px; clear: both; font-weight: 400; line-height: 1.428571429; color: #000; white-space: nowrap; border-bottom: solid 1px #ddd;
+			
+			.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus{color: #000000 !important; background-color: #f5f5f5 !important;}
+			
+			.navbar-inverse .navbar-nav>li>a{height: 50px !important;}
+
+			.nav.navbar-nav {background-color: #e5007d; background-color: #f9f9f9;}
+    
+			.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {background-color: #eee; border-color: rgba(0,0,0,.075) !important}
+			
+			.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: rgba(0,0,0,.075);}
+			
+			.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus{color: #000; background-color: transparent; background-color: #f5f5f5;}
+			
+			.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {color: #000 !important;}
+			
+			*/
+
+			#menuiniciorespon{background-color: #f9f9f9;margin-left:18%;width: 80%;}
+
+			/*#mostrarocult{margin-top:1%;display:none;}*/
+			
+			#menuresponsivo{font-weight: bold; font-size: 18px; padding: 3.5px 7px; width: 100%; background-color: #fff; border: solid 2px #ff0092; margin-right: 0%;}
+			
+			/* Medium devices (landscape tablets, 768px and up) */
+			@media(max-width: 768px) {#logo_cdmx_header{width: 100%;}}
+
+			@media(max-width: 960px) {#logo_cdmx_header{width: 100%;}}
+			
+			@media(max-width: 1224px) {#logo_cdmx_header{width: 100%;}}
+			 
+
+		</style>
+    </head>
+	
+   <body>
+    <!--Encabezado -->
+	<div class="" style="width: 100%;">	
+		<div class="heading-about">
+			<div class="heading-about" style="border-bottom: 5px solid #e5007d;">
+				<div class="row" style="margin-right: 0px;margin-bottom:1%;">
+					<div class="col-lg-12">
+						<div class="row vdivide" >
+						
+							<div class="col-sm-2" style="margin-top:2%;">
+							</div>
+				  
+							<div class="col-sm-4" style="margin-top:2%;">
+								<img id="logo_cdmx_header" src="/boostrap_css/img/sefin_logo_header.svg">
+							</div>
+							
+							<div class="col-sm-1" style="margin-top:2%;">
+							</div>
+							
+							<div class="col-sm-3 text-center" style="margin-top:1%;">
+								<div id="menuizq" class="" style="margin-top: 2%; border-left: 3px solid #eaeaea;     padding: 0 0 0 28px;">
+									<ul class="Items" style="text-align: left; list-style: none; margin-left: -10%; color: #e5007d;">
+									   <li id="menupag"><a href="http://www.cdmx.gob.mx" target="_blank" style="opacity: 0.5; margin-bottom: 20px;"><font style="color: #e5007d; text-decoration: underline;">CDMX</font></a> / <a href="http://www.cdmx.gob.mx/gobierno/gabinete/secretarias" target="_blank" style="opacity: 0.5;" ><font style="color: #e5007d; text-decoration: underline;">Secretarías</font></a> / <b>SEFIN</b></li>
+									   <li><a href="http://transparencia.finanzas.cdmx.gob.mx" target="_blank"><font style="color: #e5007d; text-decoration: underline;"><b>Transparencia</b></font></a></li>
+									   <li><a href="http://data.finanzas.cdmx.gob.mx/ssac/index.php" target="_blank"><font style="color: #e5007d; text-decoration: underline;"><b>Atención Ciudadana</b></font></a></li>
+									   <li><a href="http://data.finanzas.cdmx.gob.mx/atencion_ciudadana/" target="_blank"><font style="color: #e5007d; text-decoration: underline;"><b>Trámites y Servicios</b></font></a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="col-sm-2" style="margin-top:2%;">
+							
+							</div>
+							
+						</div>
+					</div>
+				</div>		
+			</div>
+		</div>  
+	<div id="container">
+	<?php //include "/var/www/html/includes/menu3.html";?>
+
+	<section>
+<div id="container">
+<?php
+	$flag = "0";
+	$buscar = "formato_lc";
+	$resultado = strpos($_SERVER['SCRIPT_NAME'],$buscar);
+	if($resultado != FALSE)
+	{
+		include "/var/www/html/includes/menuFUT.php";
+		$flag = "1";
+		print "<div id=\"mainContentFUT\">";
+	}
+	if($flag == "0")
+	{
+	?>
+		<div id="breadcrum"><?php print $breadcrum  ?>
+		</div><!-- breadcrum -->
+		<div id="mainContent">
+	<?php
+	}
+	?>
+<!--  <div id="mainContent"> -->
+		<!-- menï¿½ Lateral -->
+<?php
+/*Cambios realizados por Vï¿½ctor Salmorï¿½n*/  
+		//$titulo_contenido="Oficinas"; //PONER ESTA VARIABLE EN CADA Pï¿½GINA
+		//$menu_lateral="menu_lateral.html"; 
+		//$menu_lateral_der="menu_lateral_der.html"; 
+
+		if(isset($menu_lateral) && isset($menu_lateral_der) ){
+			print "<div id='menuLateral'>";
+	   			include_once ($menu_lateral);    
+			print "</div>  ";
+			print "<div id='menuLateralDer'>";
+	   			include_once ($menu_lateral_der);    
+			print "</div>  ";
+		}
+		if(isset($menu_lateral) && !isset($menu_lateral_der)){
+			print "<div id='menuLateral'>";
+	   			include_once ($menu_lateral);    
+			print "</div>  ";
+		}   
+  		
+    if(isset($menu_lateral) && isset($menu_lateral_der) ){
+   	print "<div id='central_menus'>
+  		<div id='contPrincipalCuerpo'>  
+	";
+	}
+	elseif(isset($menu_lateral) && (!isset($menu_lateral_der))){
+   	print "<div id='contDerecho'>
+  		<div id='contPrincipalCuerpo'>  
+	";
+	}else{
+		print "<div id='contenidoSinMenu'>
+			<div id='sinMenuCuerpo'>
+		";
+	}	 
+/*Terminan cambios realizados por Vï¿½ctor Salmorï¿½n  */
+?>		
+
+	</div>
+
+    </div> 
+	
+	</section>
+   </body>
+   
+   <!-- Core JavaScript Files -->
+   <script src="/boostrap_css/js/jquery.min.js"></script>
+   <script src="/boostrap_css/js/bootstrap.min.js"></script>
+   <script src="/boostrap_css/js/jquery.easing.min.js"></script>	
+   <script src="/boostrap_css/js/jquery.scrollTo.js"></script>
+   <script src="/boostrap_css/js/wow.min.js"></script>
+   <!-- Custom Theme JavaScript -->
+   <!--<script src="boostrap_css/js/custom.js"></script> -->
+   
+   
+</html>
